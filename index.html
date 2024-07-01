@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    
+    <div class="hero">
+        <label for="input-file" id="drop-area">
+          <input type="file" id="myFileInput" accept="image/*" hidden>
+            <div id="img-view">
+                <img src="upload.png" alt="">
+                <p>Drag and drop or click here <br> to upload image</p>
+            </div>
+        </label>
+        <a href="#" class="button type--A" id="generateButton">
+          <div class="button__line"></div>
+          <div class="button__line"></div>
+          <span class="button__text">ENTRY</span>
+          <div class="button__drow1"></div>
+          <div class="button__drow2"></div>
+        </a>
+
+        <div class="color-pallete">
+
+          <div></div>
+        </div>
+    </div>
+    
+    
+  
+
+
+    <script type="importmap">
+      {
+        "imports": {
+          "@google/generative-ai": "https://esm.run/@google/generative-ai"
+        }
+      }
+    </script>
+
+    <script src="test.js" defer></script>
+    <script src="script.js" type="module"></script>
+    
+  </body>
+</html>
